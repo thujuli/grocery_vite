@@ -1,11 +1,10 @@
 import "./App.css";
+import Jumbotron from "./views/Jumbotron";
 
 function App() {
   return (
     <>
-      <div>
-        <h1>Grocery Project Landing Page</h1>
-      </div>
+      <Jumbotron />
     </>
   );
 }
