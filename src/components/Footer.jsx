@@ -46,12 +46,13 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Your Email address..."
-                className="flex-1 pl-10 pr-10 py-2 rounded focus:outline-none"
+                className="flex-1 pl-10 py-2 rounded focus:outline-none"
                 style={{fontFamily: "Roboto"}}
               />
               <button
                 type="submit"
-                className="absolute right-0"
+                className="absolute mr-3 right-0 bg-transparent border-none"
+                style={{ top: '50%', transform: 'translateY(-50%)' }}
               >
                 <MdArrowForward className="text-orange-500" />
               </button>
