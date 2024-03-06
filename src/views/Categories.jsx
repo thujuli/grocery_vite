@@ -1,12 +1,12 @@
 import ButtonOvalImg from "../components/ButtonOvalImg";
 import Container from "../components/Container";
-import "react-multi-carousel/lib/styles.css";
 import CardCategory from "../components/CardCategory";
 import fruit from "../assets/img/category-fruit.png";
 import vegetable from "../assets/img/category-vegetable.png";
 import drinks from "../assets/img/category-drink.png";
 import nuts from "../assets/img/category-nut.png";
 import spices from "../assets/img/category-spice.png";
+
 function Categories() {
   const data = [
     {
