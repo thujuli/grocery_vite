@@ -1,6 +1,6 @@
 function ButtonOval(props) {
     const {mode, children} = props
-    const buttonStyle = `h-7 mx-16 px-4 rounded-3xl font-normal align-middle shadow-md text-xs ${
+    const buttonStyle = `px-8 py-2 rounded-3xl font-normal align-middle shadow-md ${
         mode === "dark" ? 'bg-[#2e4859] text-white' : 'bg-white text-black'
       }`;
     
