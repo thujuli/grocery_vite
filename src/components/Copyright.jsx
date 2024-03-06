@@ -48,9 +48,12 @@ function Copyright() {
             <span>Terms & Condition</span>
             <span>Cookies/Ad Cookies</span>
           </div>
-          <div id="footer_end" className="flex-initial text-right">
+          <div
+            id="footer_end"
+            className="flex-initial text-right flex items-center gap-3"
+          >
             {data.map((d, index) => (
-              <img key={index} src={d.img} alt="" className="w-8 ml-2" />
+              <img key={index} src={d.img} alt="" className="w-8 h-auto" />
             ))}
           </div>
         </div>
