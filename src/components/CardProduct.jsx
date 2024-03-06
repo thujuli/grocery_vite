@@ -11,7 +11,7 @@ function CardProduct(props) {
 
   return (
     <div
-      className={`relative max-w-80 p-6 rounded-xl bg-white ${
+      className={`relative max-w-[300px] p-6 rounded-xl bg-white hover:cursor-pointer ${
         border === true ? "border border-gray-300" : ""
       }`}
     >
@@ -25,7 +25,10 @@ function CardProduct(props) {
         <FaHeart />
       </button>
       <img src={imgUrl} alt={ImgAlt} className="max-w-48 h-48 mx-auto" />
-      <h3 className="uppercase text-gray-600" style={{ fontFamily: "Roboto" }}>
+      <h3
+        className="mt-1 uppercase text-gray-600"
+        style={{ fontFamily: "Roboto" }}
+      >
         {category}
       </h3>
       <h2 className="mb-3 text-2xl font-bold">{content}</h2>
