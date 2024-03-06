@@ -50,10 +50,10 @@ function Categories() {
         <div className="flex justify-between items-center">
           <div className="w-1/2">
             <h4 className="mb-5 text-4xl font-bold leading-tight text-[#1a2428]">
-              Browse Our Hottest
-              <h5 className="text-3xl mt-3 text-[#82C341] font-bold">
+              Browse Our Hottest <br />
+              <span className="text-3xl mt-3 text-[#82C341] font-bold">
                 Categories
-              </h5>
+              </span>
             </h4>
           </div>
           <div className="px-10">

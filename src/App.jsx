@@ -1,4 +1,5 @@
 import "./App.css";
+import Copyright from "./components/Copyright";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import About from "./views/About";
@@ -13,8 +14,8 @@ function App() {
       <Jumbotron />
       <Categories />
       <Promo />
-      <About />
       <Footer />
+      <Copyright />
     </>
   );
 }
