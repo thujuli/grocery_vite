@@ -1,6 +1,6 @@
 import Container from "../components/Container";
-import background from "../assets/jumbotron-bg.png";
-import imgJumbotron from "../assets/jumbotron-img.png";
+import background from "../assets/img/jumbotron-bg.png";
+import imgJumbotron from "../assets/img/jumbotron-img.png";
 import ButtonOvalImg from "../components/ButtonOvalImg";
 
 function Jumbotron() {
