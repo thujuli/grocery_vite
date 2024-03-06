@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Categories from "./views/Categories";
 import Jumbotron from "./views/Jumbotron";
+import Promo from "./views/Promo";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Jumbotron />
       <Categories />
+      <Promo/>
       <Footer />
     </>
   );
