@@ -14,13 +14,13 @@ function CardBlog(props) {
   const totalCommStr = totalComments <= 9 ? `0${totalComments}` : totalComments;
 
   return (
-    <div className="relative max-w-[450px] h-fit bg-transparent hover:cursor-pointer">
+    <div className="relative max-w-[420px] h-fit bg-transparent shadow-lg hover:cursor-pointer">
       <img
         src={imgUrl}
         alt={imgAlt}
-        className="w-[450px] h-[260px] object-cover rounded-xl"
+        className="w-[420px] h-[260px] object-cover rounded-xl"
       />
-      <div className="absolute -bottom-36 left-1/2 -translate-x-1/2 w-11/12 p-6 bg-white rounded-lg">
+      <div className="absolute -bottom-36 left-1/2 -translate-x-1/2 w-11/12 p-6 rounded-lg bg-white shadow-lg">
         <span
           className="flex items-center text-gray-400 text-sm "
           style={{ fontFamily: "Roboto" }}
