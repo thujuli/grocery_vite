@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import About from "./views/About";
 import Categories from "./views/Categories";
 import Jumbotron from "./views/Jumbotron";
-
+import PopularProducts from "./views/PopularProducts";
 import Promo from "./views/Promo";
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
       <Categories />
       <Promo />
       <About />
+      <PopularProducts />
       <Footer />
       <Copyright />
     </>
