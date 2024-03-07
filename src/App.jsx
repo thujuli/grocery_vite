@@ -9,6 +9,7 @@ import Categories from "./views/Categories";
 import Jumbotron from "./views/Jumbotron";
 import PopularProducts from "./views/PopularProducts";
 import Promo from "./views/Promo";
+import Testimonial from "./views/Testimonial";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Categories />
       <Promo />
       <BestProducts />
+      <Testimonial />
       <About />
       <PopularProducts />
       <Blogs />
