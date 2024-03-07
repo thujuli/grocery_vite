@@ -40,13 +40,23 @@ function Copyright() {
     <div id="copyright" className="pt-5">
       <Container>
         <div className="flex justify-between items-center">
-          <div id="footer" className="flex-initial">
+          <div
+            id="footer"
+            className="flex-initial text-gray-500"
+            style={{ fontFamily: "Roboto" }}
+          >
             &copy; {year} Delicacy Store
           </div>
           <div id="footer_tengah" className="flex items-center gap-20">
-            <span>Privacy Policy</span>
-            <span>Terms & Condition</span>
-            <span>Cookies/Ad Cookies</span>
+            <span className="text-gray-500" style={{ fontFamily: "Roboto" }}>
+              Privacy Policy
+            </span>
+            <span className="text-gray-500" style={{ fontFamily: "Roboto" }}>
+              Terms & Condition
+            </span>
+            <span className="text-gray-500" style={{ fontFamily: "Roboto" }}>
+              Cookies/Ad Cookies
+            </span>
           </div>
           <div
             id="footer_end"
