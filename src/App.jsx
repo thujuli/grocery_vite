@@ -1,9 +1,11 @@
 import "./App.css";
+import Copyright from "./components/Copyright";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import About from "./views/About";
 import Categories from "./views/Categories";
 import Jumbotron from "./views/Jumbotron";
+
 import Promo from "./views/Promo";
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
       <Promo />
       <About />
       <Footer />
+      <Copyright />
     </>
   );
 }
