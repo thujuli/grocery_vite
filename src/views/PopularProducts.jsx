@@ -35,7 +35,7 @@ function PopularProducts() {
               Product
             </h2>
           </div>
-          <div className="flex justify-center text-xs gap-4">
+          <div className="flex justify-center font-normal gap-4">
             {["All", "Vegetables", "Meat", "Drinks"].map((category) => (
               <button
                 key={category}
