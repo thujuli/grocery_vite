@@ -48,7 +48,7 @@ function PopularProducts() {
             ))}
           </div>
         </div>
-        <div className="mb-5 pb-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mb-3 pb-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center justify-content-center">
           <CardProduct
             imgUrl={spices}
             ImgAlt="Product Name"
@@ -90,7 +90,7 @@ function PopularProducts() {
             border={true}
           ></CardProduct>
         </div>
-        <div className="mt-5 pt-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="mt-2 pt-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center justify-content-center">
           <CardProduct
             imgUrl={nuts}
             ImgAlt="Product Name"
