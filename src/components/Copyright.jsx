@@ -37,24 +37,33 @@ function Copyright() {
     },
   ];
   return (
-    <div id="copyright" className="pt-5">
+    <div id="copyright" className="pt-5 mb-20">
       <Container>
         <div className="flex justify-between items-center">
           <div
             id="footer"
             className="flex-initial text-gray-500"
-            style={{ fontFamily: "Roboto" }}
+            style={{ fontFamily: "Roboto", fontSize: "14px" }}
           >
             &copy; {year} Delicacy Store
           </div>
           <div id="footer_tengah" className="flex items-center gap-20">
-            <span className="text-gray-500" style={{ fontFamily: "Roboto" }}>
+            <span
+              className="text-gray-500"
+              style={{ fontFamily: "Roboto", fontSize: "14px" }}
+            >
               Privacy Policy
             </span>
-            <span className="text-gray-500" style={{ fontFamily: "Roboto" }}>
+            <span
+              className="text-gray-500"
+              style={{ fontFamily: "Roboto", fontSize: "14px" }}
+            >
               Terms & Condition
             </span>
-            <span className="text-gray-500" style={{ fontFamily: "Roboto" }}>
+            <span
+              className="text-gray-500"
+              style={{ fontFamily: "Roboto", fontSize: "14px" }}
+            >
               Cookies/Ad Cookies
             </span>
           </div>
