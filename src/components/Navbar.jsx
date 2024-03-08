@@ -11,7 +11,10 @@ import {
 
 const Navbar = () => {
   return (
-    <div id="navbar" className="flex justify-between items-center">
+    <div
+      id="navbar"
+      className="flex justify-between items-center flex-wrap md:flex-no-wrap py-4 md:py-0"
+    >
       <Container className="flex items-center">
         <div className="flex items-center">
           <img src={logo} alt="Logo" className="w-32 h-auto" />
@@ -23,7 +26,7 @@ const Navbar = () => {
         </div>
       </Container>
       <Container className="flex items-center">
-        <div className="flex items-center">
+        <div className="hidden md:flex items-center">
           <input
             type="text"
             placeholder="What are you looking for?"
