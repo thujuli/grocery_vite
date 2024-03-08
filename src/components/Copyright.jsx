@@ -39,7 +39,7 @@ function Copyright() {
   return (
     <div id="copyright" className="pt-5 mb-20">
       <Container>
-        <div className="flex justify-between items-center">
+        <div className="hidden md:flex justify-between items-center">
           <div
             id="footer"
             className="flex-initial text-gray-500"
