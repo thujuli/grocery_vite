@@ -22,7 +22,7 @@ function BestProducts() {
             <ButtonCircle id="best-product" direction="right" />
           </div>
         </div>
-        <div className="mb-3 pb-3 flex px-4 md:px-0 gap-6 overflow-x-scroll md:overflow-x-auto">
+        <div className="mb-3 pb-3 flex px-4 md:px-0 gap-6 justify-start md:justify-center overflow-x-scroll md:overflow-x-auto">
           <CardProduct
             imgUrl={nuts}
             ImgAlt="Product Name"
