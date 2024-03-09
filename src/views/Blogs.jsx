@@ -11,7 +11,7 @@ function Blogs() {
         <h2 className="mb-20 mt-24 text-3xl font-bold text-black text-center">
           Latest News & Blogs
         </h2>
-        <div className="flex gap-6 flex-wrap justify-center mb-52">
+        <div className="flex gap-4 md:gap-6 mb-24 pb-40 px-4 md:px-0 justify-start md:justify-center overflow-x-scroll md:overflow-auto">
           <CardBlog
             imgUrl={blogDetox}
             imgAlt="What is Detox"
