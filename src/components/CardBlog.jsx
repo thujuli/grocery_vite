@@ -14,7 +14,7 @@ function CardBlog(props) {
   const totalCommStr = totalComments <= 9 ? `0${totalComments}` : totalComments;
 
   return (
-    <div className="relative max-w-[420px] h-fit bg-transparent shadow-lg hover:cursor-pointer">
+    <div className="relative min-w-[350px] max-w-[420px] h-fit bg-transparent shadow-lg hover:cursor-pointer">
       <img
         src={imgUrl}
         alt={imgAlt}
