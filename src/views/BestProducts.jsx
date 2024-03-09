@@ -10,19 +10,19 @@ function BestProducts() {
   return (
     <section id="best-products" className="my-8 py-8">
       <Container>
-        <div className="flex justify-between items-center pb-16">
-          <div className="w-1/2">
-            <h4 className="mb-5 text-4xl font-bold leading-tight text-[#1a2428]">
+        <div className="flex justify-between items-center pb-16 px-4 md:px-0">
+          <div className="w-full md:w-1/2">
+            <h4 className="mb-5 text-4xl font-bold leading-tight text-[#1a2428] text-center md:text-start">
               Best Selling Products
             </h4>
           </div>
-          <div className="flex">
-            <ButtonCircle id='best-product' direction='left' />
+          <div className="hidden md:flex">
+            <ButtonCircle id="best-product" direction="left" />
             <div className="w-2"></div>
-            <ButtonCircle id='best-product' direction='right' />
+            <ButtonCircle id="best-product" direction="right" />
           </div>
         </div>
-        <div className="mb-3 pb-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center justify-content-center">
+        <div className="mb-3 pb-3 flex px-4 md:px-0 gap-6 overflow-x-scroll md:overflow-x-auto">
           <CardProduct
             imgUrl={nuts}
             ImgAlt="Product Name"
