@@ -28,14 +28,14 @@ function PopularProducts() {
   return (
     <section id="popular-products" className="bg-[#f3f3f3] py-24">
       <Container>
-        <div className="mb-20 text-center">
+        <div className="mb-10 md:mb-20 text-center">
           <div className="flex mb-7 justify-center">
             <h2 className="text-3xl font-bold text-black mb-3">Most Popular</h2>
             <h2 className="text-3xl font-bold text-[#3cb814] mb-3 ml-2">
               Product
             </h2>
           </div>
-          <div className="flex justify-center font-normal gap-4">
+          <div className="px-4 md:px-0 flex flex-wrap justify-center font-normal gap-4">
             {["All", "Vegetables", "Meat", "Drinks"].map((category) => (
               <button
                 key={category}
@@ -48,7 +48,7 @@ function PopularProducts() {
             ))}
           </div>
         </div>
-        <div className="mb-3 pb-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center justify-content-center">
+        <div className="mb-3 pb-3 flex flex-nowrap md:flex-wrap justify-start md:justify-center gap-6 px-4 md:px-0 overflow-x-scroll md:overflow-x-auto">
           <CardProduct
             imgUrl={spices}
             ImgAlt="Product Name"
@@ -57,7 +57,7 @@ function PopularProducts() {
             price={7.99}
             disc={25}
             unit="kg"
-            border={true}
+            border={false}
           ></CardProduct>
           <CardProduct
             imgUrl={fruit}
@@ -67,7 +67,7 @@ function PopularProducts() {
             price={6.39}
             disc={25}
             unit="kg"
-            border={true}
+            border={false}
           ></CardProduct>
           <CardProduct
             imgUrl={vegetable}
@@ -77,20 +77,18 @@ function PopularProducts() {
             price={10.19}
             disc={25}
             unit="kg"
-            border={true}
+            border={false}
           ></CardProduct>
           <CardProduct
             imgUrl={drinks}
             ImgAlt="Product Name"
             category="Juice"
-            content="FUll Fresh Organic Juice"
+            content="Full Fresh Organic Juice"
             price={8.0}
             disc={25}
             unit="kg"
-            border={true}
+            border={false}
           ></CardProduct>
-        </div>
-        <div className="mt-2 pt-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center justify-content-center">
           <CardProduct
             imgUrl={nuts}
             ImgAlt="Product Name"
@@ -99,7 +97,7 @@ function PopularProducts() {
             price={7.0}
             disc={25}
             unit="kg"
-            border={true}
+            border={false}
           ></CardProduct>
           <CardProduct
             imgUrl={fish}
@@ -109,7 +107,7 @@ function PopularProducts() {
             price={7.99}
             disc={25}
             unit="kg"
-            border={true}
+            border={false}
           ></CardProduct>
           <CardProduct
             imgUrl={meat}
@@ -119,7 +117,7 @@ function PopularProducts() {
             price={14.99}
             disc={25}
             unit="kg"
-            border={true}
+            border={false}
           ></CardProduct>
           <CardProduct
             imgUrl={tuna}
@@ -129,7 +127,7 @@ function PopularProducts() {
             price={4.99}
             disc={25}
             unit="kg"
-            border={true}
+            border={false}
           ></CardProduct>
         </div>
       </Container>
