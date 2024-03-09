@@ -11,7 +11,7 @@ function CardProduct(props) {
 
   return (
     <div
-      className={`relative min-w-[300px] max-w-[350px] p-6 rounded-xl bg-white hover:cursor-pointer ${
+      className={`relative min-w-[300px] max-w-[350px] md:max-w-[310px] p-6 rounded-xl bg-white hover:cursor-pointer ${
         border === true ? "border border-gray-300" : ""
       }`}
     >
